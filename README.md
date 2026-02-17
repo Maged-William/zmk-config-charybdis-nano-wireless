@@ -1,7 +1,7 @@
 # Charybdis nano wireless
 
 
-## (Partial) guide
+## (Partial) guide 
 
 ### Parts
 
