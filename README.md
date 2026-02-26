@@ -13,14 +13,14 @@
 
 The wiring for the sensor was done according to this table:
 
-| MCU adapter | MCU PIN  | pmw3610 |
-|-------------|----------|---------|
-| VCC         |  VCC     | VDD     |
-| GND         |  GND     | GND     |
-| MISO        |  P0.06   | MOTION  |
-| SCLK        |  P0.08   | SCLK    |
-| MOSI        |  P0.17   | SDIO    |
-| CST         |  P0.20   | NCS     |
+| MCU PIN  | MCU adapter | pmw3610 |
+|----------|-------------|---------|
+|  VCC     | VCC         | VDD     |
+|  GND     | GND         | GND     |
+|  P0.06   | MISO        | MOTION  |
+|  P0.08   | SCLK        | SCLK    |
+|  P0.17   | MOSI        | SDIO    |
+|  P0.20   | CST         | NCS     |
 
 **Warning:** on the pmw3610 pcb, use the **VDD** pin, not the **VDIO** pin (which expects a max of 3.3V).
 
